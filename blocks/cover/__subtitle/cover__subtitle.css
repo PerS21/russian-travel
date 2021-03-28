@@ -16,4 +16,7 @@
     letter-spacing: 0em;
     text-align: center;
 
+    position: relative;
+    z-index: 2;
+
 }
