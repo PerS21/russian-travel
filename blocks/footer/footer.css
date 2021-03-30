@@ -1,5 +1,6 @@
 .footer {
-  margin: 92px auto 0;
+  font-family: "Inter", Arial, sans-serif;
+  margin: 92px auto 24px;
   color: white;
   display: flex;
   justify-content: space-between;

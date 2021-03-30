@@ -6,9 +6,7 @@
 
   max-width: 720px;
   margin: auto;
-  font-family: Inter;
   font-size: 96px;
-  font-style: normal;
   font-weight: 900;
   line-height: 100px;
   text-align: center;
@@ -17,12 +15,8 @@
 @media (max-width: 767px) {
   .lead__title {
     max-width: 288px;
-    font-family: Inter;
     font-size: 40px;
-    font-style: normal;
-    font-weight: 900;
     line-height: 44px;
-    letter-spacing: 0em;
     text-align: center;
   }
 }
