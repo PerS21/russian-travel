@@ -1,12 +1,25 @@
 .intro {
   color: white;
-  width: 984px;
+  max-width: 984px;
   margin: 92px auto 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1279px) {
   .intro {
-    width: 288px;
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .intro {
+    max-width: 720px;
+    margin-top: 88px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro {
+    max-width: 288px;
     margin-top: 64px;
   }
 }
