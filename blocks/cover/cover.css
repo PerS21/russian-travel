@@ -6,3 +6,9 @@
     background: url('../../images/cover-trains.jpg');
     color: white;
 }
+
+@media (max-width: 768px) {
+    .cover {
+        width: 320px;
+    }
+}

@@ -3,3 +3,21 @@
     justify-content: flex-end;
     flex-direction: column;
 }
+
+
+@media (max-width: 768px) {
+    .place__website {
+        width: 288px;
+        margin: auto;
+
+
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+}

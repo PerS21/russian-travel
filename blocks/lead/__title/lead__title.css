@@ -4,7 +4,7 @@
     margin-inline-start: 0;
     margin-inline-end: 0;
 
-    
+
     height: 200px;
     width: 720px;
     margin: auto;
@@ -15,4 +15,20 @@
     line-height: 100px;
     letter-spacing: 0em;
     text-align: center;
+}
+
+@media(max-width: 768px) {
+    .lead__title {
+        height: 88px;
+        width: 288px;
+
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
 }

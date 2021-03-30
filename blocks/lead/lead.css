@@ -3,3 +3,9 @@
     margin: 56px auto 0;
     width: 984px;
 }
+
+@media (max-width: 768px) {
+    .lead {
+        width: 320px;
+    }
+}

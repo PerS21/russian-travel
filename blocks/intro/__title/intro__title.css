@@ -13,3 +13,19 @@
     text-align: left;
 
 }
+
+
+@media (max-width: 768px) {
+    .intro__title {
+        width: 288px;
+
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+}
