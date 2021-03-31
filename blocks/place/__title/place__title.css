@@ -4,22 +4,29 @@
   margin-inline-start: 0;
   margin-inline-end: 0;
 
-  font-size: 72px;
   font-style: normal;
   font-weight: 900;
+  font-size: 72px;
   line-height: 76px;
   text-align: left;
 
-  width: 460px;
+  max-width: 460px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .place__title {
-    width: 288px;
-    margin: auto;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
 
+@media (max-width: 767px) {
+  .place__title {
+    max-width: 288px;
+
+    margin-left: 16px;
     font-size: 32px;
     line-height: 35px;
-    text-align: left;
   }
 }

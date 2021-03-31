@@ -1,9 +1,10 @@
 .footer__link {
   margin-right: 18px;
+  text-decoration: none;
 
-  font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  font-size: 16px;
   line-height: 18px;
   text-align: left;
 }
@@ -15,7 +16,10 @@
 @media (max-width: 657px) {
   .footer__link {
     margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
   }
+
   .footer__link:last-of-type {
     margin-bottom: 0;
   }

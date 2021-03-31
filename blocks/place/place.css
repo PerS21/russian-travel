@@ -1,7 +1,6 @@
 .place {
   font-family: "Inter", Arial, sans-serif;
   color: white;
-  min-height: 660px;
 
   display: grid;
   grid-template-columns: 460px 484px;
